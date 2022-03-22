@@ -1,5 +1,19 @@
 // JavaScript Document
 const post_listData = [
+
+  {
+    name: "Tast Upload",
+	description: "For Wedding Cover Design",
+	img: "https://pin.it/1wRK7Ja",
+	type: "Photoshop File",
+	size: "12x8",
+	pas: "tc-myaing",
+	credit: "Original Creator",
+	dLink1: "mediafire link",
+	dLink2: "mega link",
+	dLink3: "pcloud link",
+	dLink4: "google drive"
+  },
   {
     name: "Mingala Saung Fatesar",
 	description: "For Wedding Cover Design",
