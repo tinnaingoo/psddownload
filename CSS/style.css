@@ -9,210 +9,154 @@
 /*=============================================================================*/
 
 /*=================================For Body===================================*/
-.body{
-	background: #FFC13D;
-	padding: 20px;
-	}
+.body {
+  font-family: sans-serif;
+  background-color: #dedede;
+  color: #333;
+  padding: 20px 0 28px 0;
+  margin: 0;
+}
 /*=============================================================================*/
 	
-/*=================================For Title===================================*/
+/*=================================For Header ===================================*/
 .H1{
-    color: Black;
-	text-align:center;
-	width: 800px;
-    border:#FFFFFF;
-    border-radius: 5px;
-	margin: 0px 0px 0px 0px;
-	}
-
-	
-/*=============================================================================*/
-
-/*=================================Menu===================================*/
-
-nav {
-	display: flex;
-	width: 800px;
-	padding: 10px;
-	background: #1b1b1b;
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  padding: 3px;
 }
 
-
-nav ul {
-	display: flex;
-	flex-wrap: wrap;
-	list-style: none;	
-}
-nav ul li {
-	margin: 0px 5px;
-}
-nav ul li a{
-	color: #f2f2f2;
-	text-decoration: none;
-	font-size: 18px;
-	font-weight: 300;
-	padding: 3px 3px 3px 3px;
-	border-radius: 5px;
-	letter-spacing: 1px;
-	transition: all 0.3s ease;
-}
-nav ul li a.active,
-nav ul li a:hover{
-	color: #111;
-	background: #fff;
-}
-nav .menu-btn i {
-	color: #fff;
-	font-size: 22px;
-	cursor: pointer;
-	display: none;
-}
-
-	
-}
-.content{
-	color:  #1b1b1b;
-	width:  800px;
-}
-.content div{
+.post_count{
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	color:#FFF;
 	text-align: center;
-	width: 800px;
-	font-size: 15px;
+	max-width: 300px;
+	padding: 5px;
+	margin: 10px auto;
+	background-color:#666;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
 }
 
+/*=============================================================================*/
+	
+/*=================================For Footer Layout===================================*/
+.footer {
+  font-size:20px;
+  color: #888;
+  text-align: center;
+  margin: 0;
+}
+
+
+/*=============================================================================*/
+	
+/*=================================For Item Background===================================*/
+.item_frame {
+  max-width: 700px;
+  padding: 20px;
+  margin: auto;
+  overflow: hidden;
+}
+.item_background {
+  max-width: 650px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
 	
 /*=============================================================================*/
 	
 /*=================================For Post Body ===================================*/
-
-header{
-	width: 800px;
-	height: 100%;
-	list-style-position:inherit;
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0px 0px 0px px;
-	}
-
-/*=============================================================================*/
-	
-/*=================================For Post Item===================================*/
-.bx{
-	position: relative;
-	width: 256.62px;
-	height:auto;
-	border: 1px solid #3300FF;
-	border-radius: 20px;
-	margin: 5px;
-	z-index: 1;
-	}
-	
-.bx img{
-	width:100%;
-	height:70%;
-	border-radius: 20px 20px 0px 0px;
-	}
-	
-.bx .content{
-	position:absolute;
-	width:100%;
-	height:30%;
-	bottom: 0;
-	border-radius: 0px 0px 20px 20px;
-	z-index:1;
-	}
-	
-.bx .content::before{
-	position: absolute;
-	content:'';
-	width:100%;
-	height:100%;
-	background: #3300FF;
-	background-filter: blur(5px);
-	border-radius: 0px 0px 20px 20px;
-	z-index:-1;
-	}
-	
-.content h3{
-	color:white;
-	text-shadow:#333333;
-	padding: 5px 5px 0px 5px;
-	font-size: 15px;
-	}
-
-.content p{
-	padding: 5px 0px 5px 10px;
-	}
-/*View in Post Button*/
-.content p span{
-	color:blue;
-	Background:yellow;
-	border-radius: 5px;
-	padding: 3px 3px 3px 3px;
-	font-size: 12px;
-	}
-/*Birthday Button*/
-.content p span2 {
-	color:blue;
-	Background:white;
-	border-radius: 5px;
-	padding: 3px 3px 3px 3px;
-	font-size: 12px;
-	}
-	
-/*Birthday Button*/
-.content p span3 {
-	color:blue;
-	Background:white;
-	border-radius: 5px;
-	padding: 3px 3px 3px 3px;
-	font-size: 12px;
-	}
-
-/*Birthday Button*/
-.content p span4 {
-	color:blue;
-	Background:white;
-	border-radius: 5px;
-	padding: 3px 3px 3px 3px;
-	font-size: 12px;
-	}
-
-
-/*=============================================================================*/
-	
-/*=================================Description ===================================*/
-.description {
-	padding: 5px;
-	width: 800px;
+.img{
+  float: left;
+  width: 40%;
+  border-radius: 20px;
+  margin-right: 15px;
+}
+.name{
+	padding: 3px;
+	font-size: 0 5px 0 0;
+	margin: 0 0 6px 0;
 }
 
+.des{
+	font-size: 13px;
+	margin: 0 0 6px 0;
+}
 
+.type{
+	font-size: 12px;
+	margin: 0 0 6px 0;
+}
+
+.credit{
+	font-size: 12px;
+	margin: 0 0 6px 0;
+}
+
+.download{
+	color:#333;
+	font-family:"Times New Roman", Times, serif;
+	font-size: 15px;
+	margin: 0 0 6px 0;
+}
+
+.link{
+	font-size: 12px;
+	margin: 0 0 6px 0px;	
+}
+.a{
+	background: #dedede;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 12px;
+	margin: 0 0 6px 0px;	
+}
+
+.pas{
+	font-size: 12px;
+	margin: 0 0 6px 0;
+}
+/*=============================================================================*/
+	
+/*=================================Fooder Description ===================================*/
+.description {
+	background: white;
+	border-radius: 20px;
+	width: 800px;
+	padding: 5px;
+}
+
+	
+.description p{
+	color:Blue;
+	text-align:center;
+	}
 .description img{
 	width: 50px;
 	height: 50px;
-	margin: 10px;
+	margin: 3px;
 	border-radius: 8px;
-	}
-
-.description .p{
-	background-image: url("../img/Sample Invitation Card.018.jpg");
-	width: 500px;
-	align-content: center;
 }
-/*=============================================================================*/
 	
-/*=================================For Footer Layout===================================*/
-.fooder {
-    color: white;
-	text-align: center;
-	display: flex;
-	padding: 10px;
-	width: 800px;
-	margin-top: 10px;
-	background: #1b1b1b;
+
+a:link {
+	color: #00F;
 }
-.fooder p{
-	text-align: center;
-	font-size: 20px;
+a:hover {
+	color: white;
+	background:red;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
+}
+a:active {
+	color: white;
+	background: blue;
+	padding: 5px;
+	margin-top: 10px;
+	border-radius: 5px;
 }
