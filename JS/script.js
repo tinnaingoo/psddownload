@@ -4,7 +4,7 @@ const post_listData = [
   {
     name: "Tast Upload",
 	description: "For Wedding Cover Design",
-	img: "https://pin.it/1wRK7Ja",
+	img: "https://i.pinimg.com/736x/0d/85/39/0d8539dfca7a33a9abb38557cf3ce562.jpg",
 	type: "Photoshop File",
 	size: "12x8",
 	pas: "tc-myaing",
