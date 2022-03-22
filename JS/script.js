@@ -17,7 +17,7 @@ const post_listData = [
   {
     name: "Mingala Saung Fatesar",
 	description: "For Wedding Cover Design",
-	img: "https://raw.githubusercontent.com/tinnaingoo/psddownload/Page/img/post_item.jpg",
+	img: "https://i.pinimg.com/736x/aa/9e/ee/aa9eee03d11347d0f4fe1577e1389d65.jpg",
 	type: "Photoshop File",
 	size: "12x8",
 	pas: "tc-myaing",
